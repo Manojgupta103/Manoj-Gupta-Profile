@@ -35,6 +35,13 @@ function ContactSection() {
               <span>{personalData.email}</span>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
+              <MdAlternateEmail
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
+              />
+              <span>{personalData.email2}</span>
+            </p>
+            <p className="text-sm md:text-xl flex items-center gap-3">
               <IoMdCall
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}

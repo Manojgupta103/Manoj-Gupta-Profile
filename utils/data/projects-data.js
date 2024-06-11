@@ -1,48 +1,45 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Password-Generator-as-Chrome-Extension',
+        description: 'It is an open-source Chrome Extension that allows people to generate and copy safe and secure passwords using an algorithm implemented in JavaScript. A Chrome Extension implementing chrome API. Proper Chrome Extension coding standards are maintained like background and content scripts. Users have to do less as the extension is smart enough to auto-detect the users username and URL and autofill them in the popup accordingly. User dont have to manually copy the generated password in the required field as the extension does it for him as soon as he saves password. The user can generate a password by customizing the length, characters, etc or choose to generate a password by default method with a very user-friendly UI. He/She can choose to delete saved passwords as and when required. The user can choose to view the extension in light or dark mode as per convenience.',
+        tools: ['HTML5', 'CSS', 'JavaScript'],
+        link:'https://github.com/Manojgupta103/Password-Generator-as-Chrome-Extension',
+        role: '',
         code: '',
         demo: '',
-        image: crefin,
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Lock Fortress',
+        description: 'The Secure Password Manager and Strength Checker project is a comprehensive solution designed to enhance user security and convenience in managing their online accounts and passwords. Lock Fortress is the ultimate solution for safeguarding your digital keys. Designed as a fortress for your passwords, it offers unparalleled security and ease of use. With Lock Fortress, you can securely store and manage all your passwords and sensitive information in one centralized location, protected by state-of-the-art encryption algorithms.',
+        tools: ['HTML5', 'CSS', 'JavaScript',"Gmail Passkey"],
+        link:'https://github.com/Manojgupta103/Lock-Fortress',
+        role: '',
         code: '',
         demo: '',
-        image: travel,
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Form Handling',
+        description: 'The Form Handling project is a comprehensive solution designed to enhance user security and convenience in managing their online accounts and passwords. Form handling refers to the process of managing and processing data submitted through web forms on a website. This includes receiving the data entered by the user, validating it, processing it according to predefined rules or requirements, and then taking appropriate actions such as storing it in a database, sending it via email, or displaying it on a web page.',
+        tools: ['React', 'Bootstrap' ],
+        link:'https://github.com/Manojgupta103/Form-Handling-React',
         code: '',
-        role: 'Full Stack Developer',
+        role: '',
         demo: '',
-        image: realEstate,
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Password Generator',
+        description: 'The Password Generator project is a comprehensive solution designed to enhance user security and convenience in managing their online accounts and passwords. A password generator is a tool or software program designed to create random, complex, and secure passwords for various purposes, such as online accounts, Wi-Fi networks, or encrypted files. These passwords are typically generated using a combination of letters (both uppercase and lowercase), numbers, and special characters. The generated passwords are difficult for hackers to guess or crack using brute force methods, thereby enhancing the security of the accounts or data they protect. Many password generators also offer options for customizing password length and character types to meet specific security requirements.',
+        tools: ['NextJS', 'Material UI', 'React', 'Bootstrap'],
+        link:'https://github.com/Manojgupta103/Password-Generator-React',
         code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
+         demo: '',
+         image: "",
+        role: '',
     }
 ];
 

@@ -99,6 +99,8 @@ export const skillsImage = (skill) => {
       return javascript;
     case 'next js':
       return nextJS;
+      case 'Node Js':
+        return NodeJs;
     case 'nuxt js':
       return nuxtJS;
     case 'react':
