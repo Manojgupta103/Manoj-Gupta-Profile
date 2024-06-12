@@ -39,7 +39,7 @@ function ContactWithoutCaptcha() {
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
 
     try {
-      const res = await emailjs.send(serviceID, templateID, input, options);
+      const res = await emailjs.send('service_h7bcj1m', 'template_mv2ucgp', input, '7gx4p9VeCENmi8BKm');
 
       if (res.status === 200) {
         toast.success('Message sent successfully!');
@@ -68,6 +68,7 @@ function ContactWithoutCaptcha() {
             <label className="text-base">Your Name: </label>
             <input
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              name='name'
               type="text"
               maxLength="100"
               required={true}
@@ -81,6 +82,7 @@ function ContactWithoutCaptcha() {
             <label className="text-base">Your Email: </label>
             <input
               className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+              name='email'
               type="email"
               maxLength="100"
               required={true}
