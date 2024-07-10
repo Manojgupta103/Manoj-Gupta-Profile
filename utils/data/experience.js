@@ -11,6 +11,15 @@ export const experiences = [
   },
   {
     id: 2,
+    title: "Digital Forensics Analyst at DeepCytes",
+    "duration": "June 2024 - December 2024",
+   "responsibilities": [
+    "Conducting thorough investigations into cyber incidents, security breaches, or other digital crimes. This involves analyzing digital evidence such as logs, network traffic, and filesystems to determine the extent and impact of the incident.",
+    "As Digital Forensics Analyst at DeepCytes Ventures, I lead investigations, analyze digital evidence meticulously, and collaborate to fortify cybersecurity strategies."
+]
+},
+  {
+    id: 3,
     title: "Front End Development (FED) at IBM SkillsBuild (Edunet Foundation)",
     "duration": "June 2023 - July 2023",
     "responsibilities": [
@@ -21,7 +30,7 @@ export const experiences = [
 },
 
 {
-    id: 3,
+    id: 4,
     title: "Cyber Security Internship & Hackathon at CFFEINE TRIP (CYBERFRAT) ",
     "duration": "April 2023 - December 2023",
     "responsibilities": [
@@ -31,14 +40,5 @@ export const experiences = [
     ]
 },
 
-{
-    id: 4,
-    title: "Cyber Security & Digital Forensics Internship at Cyber Secure India",
-    "duration": "August 2023 - October 2023",
-   "responsibilities": [
-    "Gained hands-on experience in identifying and mitigating security threats, conducting forensic analysis, and safeguarding digital assets",
-    "Utilized tools such as Wireshark and Metasploit to investigate incidents and enhance cybersecurity protocols",
-    "Collaborated with cross-functional teams to develop and implement effective security strategies",
-]
-},
+
 ]
